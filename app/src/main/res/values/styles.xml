@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.StatusBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/sp_gray</item>
+    </style>
+
+    <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="SpTextAppearence.regular" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/simple_regular</item>
+    </style>
+
+    <style name="SpTextAppearence.semibold" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/simple_semibold</item>
+    </style>
+
+    <style name="SpTextAppearence.bold" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/simple_bold</item>
+    </style>
+
+    <!-- Text Input layout-->
+    <style name="SpTextAppearence.TextInputLayout" parent="TextAppearance.AppCompat">
+        <item name="colorControlNormal">@color/more_item_color_v2</item>
+        <item name="colorControlActivated">@color/more_item_color_v1</item>
+        <item name="colorControlHighlight">@color/more_item_color_v1</item>
+    </style>
+
+    <style name="SpTextAppearence.question.label" parent="@style/SpTextAppearence.semibold">
+        <item name="android:textSize">@dimen/font_12dp</item>
+        <item name="android:textColor">@color/more_item_color_v1</item>
+    </style>
+
+    <style name="SpTextAppearence.question.error" parent="@style/SpTextAppearence.semibold">
+        <item name="android:textSize">@dimen/font_12dp</item>
+        <item name="android:textColor">@color/sp_error</item>
+    </style>
+
+    <style name="SpTextAppearence.answer" parent="@style/SpTextAppearence.semibold">
+        <item name="android:textSize">@dimen/font_18dp</item>
+        <item name="android:textColor">@color/more_item_color_v1</item>
+    </style>
+
+    <!-- Module Heading Style -->
+    <style name="SpTextAppearence.heading" parent="@style/SpTextAppearence.regular">
+        <item name="android:textSize">@dimen/font_18dp</item>
+        <item name="android:textColor">@color/heading_color</item>
+        <item name="android:padding">@dimen/margin_10dp</item>
+    </style>
+
+    <style name="SpTextAppearence.heading.bold" parent="@style/SpTextAppearence.bold">
+        <item name="android:textSize">@dimen/font_20dp</item>
+        <item name="android:textColor">@color/heading_color</item>
+    </style>
+
+    <style name="SpTextAppearence.heading.info" parent="@style/SpTextAppearence.heading">
+        <item name="android:textColor">@color/sp_text_color</item>
+        <item name="android:textSize">@dimen/font_18dp</item>
+    </style>
+
+    <style name="SpTextAppearence.heading.info.small" parent="@style/SpTextAppearence.heading">
+        <item name="android:textColor">@color/sp_text_color</item>
+        <item name="android:textSize">@dimen/font_16dp</item>
+        <item name="android:padding">@dimen/margin_5dp</item>
+    </style>
+
+    <style name="SpTextAppearence.button.submit" parent="@style/SpTextAppearence.heading">
+        <item name="android:textColor">@color/sp_white</item>
+        <item name="android:textSize">@dimen/font_18dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="SpTextAppearence.heading.xxlarge" parent="@style/SpTextAppearence.semibold">
+        <item name="android:textSize">@dimen/font_25dp</item>
+    </style>
+
+    <style name="SpTextAppearence.more_item" parent="@style/SpTextAppearence.regular">
+        <item name="android:textSize">@dimen/font_18dp</item>
+        <item name="android:textColor">@color/more_item_color_v2</item>
+    </style>
+
+
+</resources>

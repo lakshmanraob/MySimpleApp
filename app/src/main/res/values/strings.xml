@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MySimpleApp</string>
+
+    <string name="welcome_str">Welcome to MyApp</string>
+    <string name="login_str">Login using your PhoneNumber</string>
+
+    <string name="phone_number">PhoneNumber</string>
+    <string name="phone_number_hint">Use Phone number for login</string>
+    <string name="pin_hint">Enter pin for login</string>
+    <string name="pin">pin</string>
+    <string name="login">login</string>
+    <string name="forgot_pin">forgot pin?</string>
+    <string name="wanted_to_signup">wanted to SignUp?</string>
+    <string name="signup">SignUp</string>
+
+    <string name="outlet_heading">Select your Outlet</string>
+</resources>

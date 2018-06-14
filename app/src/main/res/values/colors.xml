@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007AB3</color>
+    <color name="colorPrimaryDark">#006192</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="sp_white">#FFFFFF</color>
+    <color name="sp_gray">#3C3C3C</color>
+
+    <color name="sp_general_info">#496EBD</color>
+    <color name="sp_success">#1E8927</color>
+    <color name="sp_warning">#EFBE25</color>
+    <color name="sp_error">#DC3149</color>
+
+    <color name="sp_dark_action">#006192</color>
+    <color name="sp_bright_action">#007AB3</color>
+    <color name="sp_direct_green">#3DA556</color>
+    <color name="sp_direct_orange">#F86200</color>
+    <color name="sp_text_color">#414141</color>
+
+    <color name="heading_color">#414141</color>
+    <color name="heading_bg_color">#CFE9EE</color>
+    <color name="more_item_color_v1">#505050</color>
+    <color name="more_item_color_v2">#767676</color>
+
+</resources>
