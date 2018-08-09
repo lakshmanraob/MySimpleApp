@@ -2,19 +2,15 @@ package pro.com.my.mysimpleapp.fragments;
 
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
-import android.util.ArrayMap;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import org.greenrobot.eventbus.EventBus;
-import org.json.JSONObject;
 
 import java.util.List;
-import java.util.Map;
 
-import okhttp3.RequestBody;
 import pro.com.my.mysimpleapp.R;
 import pro.com.my.mysimpleapp.models.LoginResponse;
 import pro.com.my.mysimpleapp.models.User;
@@ -73,8 +69,6 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener 
             case R.id.login_txt:
                 user = new User(loginView.edit_login_phone_number.getText().toString(),
                         loginView.edit_login_pin_number.getText().toString());
-//                event.setOperatoionIndex(OPERATION_REPLACE);
-//                event.setFragmentIndex(FRAGMENT_OUTLET_MAP);
                 authenticate(user);
                 break;
             case R.id.forgot_pin:
@@ -106,7 +100,7 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener 
                     EventBus.getDefault().post(event);
                 } else {
                     int statusCode = response.code();
-                    Log.d("MainActivity", "posts loaded from API "+statusCode);
+                    Log.d("MainActivity", "posts loaded from API " + statusCode);
                     // handle request errors depending on status code
                 }
             }
